@@ -86,22 +86,27 @@ A Python script:
 ---
 
 ##  Repository Contents
-- INTERNET SPEED MONITOR.pptx → Project presentation  
-- Project report/documentation  
+- `speedtest.py` → Main script to collect and log internet speed data  
+- `Speedtest_initial.py` → Initial version of speed testing script  
+- `led_blink.py` → LED control based on internet speed   
+- Project report/documentation files    
 
 ---
 
-##  Note
-This repository contains **project documentation only**.  
-The main implementation files (Python scripts and configuration files) are not included.
+##  Notes
+- Designed to run on a Raspberry Pi  
+- Ensure correct file paths (e.g., `/home/pi/speedtest/`)  
+- LED requires proper GPIO wiring with resistor  
+- Speedtest CLI must be installed before running scripts  
 
 ---
 
 ##  Future Improvements
-- Develop a graphical user interface (GUI)  
-- Add alert system (email/SMS notifications)  
-- Extend LED indicators for upload and ping  
-- Improve automation and performance tracking  
+- Integrate InfluxDB for time-series data storage  
+- Add Grafana dashboards for visualization  
+- Develop GUI for better user interaction  
+- Implement alert system (email/SMS notifications)  
+- Add additional LEDs for upload and ping indicators  
 
 ---
 
