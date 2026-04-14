@@ -110,12 +110,6 @@ A Python script:
 
 ---
 
-##  Authors
-- Nidhi Patel  
-- Lois Mathew  
-
----
-
 ##  Applications
 - Home network monitoring  
 - Small business network diagnostics  
